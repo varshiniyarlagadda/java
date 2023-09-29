@@ -1,0 +1,14 @@
+import java.io.*;
+class CountorDemo{
+    static int count=0;
+    CountorDemo(){
+        count++;
+        System.out.println("Count");
+    }
+}
+public class StaticVariableDemo2{
+    public static void main(String[] args){
+        CountorDemo cd1=new CountorDemo();
+        CountorDemo cd2=new CountorDemo();
+    }
+}
